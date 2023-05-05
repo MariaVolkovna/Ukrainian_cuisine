@@ -1,0 +1,365 @@
+/*Страница*/
+body {
+	background-image: url('background.png');
+	background-attachment: fixed;
+    font-family: 'Ruslan Display';
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.icon {
+  height: 100px;
+  float: left;
+  margin-left: 15px;
+}
+.icon:hover{
+  height: 100px;
+  float: left;
+}
+/* Про нас */
+/*Розделы*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    border-radius: 13px;
+    background-color: #292929;
+    color: #FF7600;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 22px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-radius: 33px;
+    background-color: #FF7600;
+    color: #292929;
+}
+/*Надпись на главной странице*/
+#hero {
+    background-color: rgba(0,0,0,0.7);
+    color: #FAF4E1;
+    height: 742px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
+}
+h1 {
+    font-size: 58px;
+    margin: 0;
+    color: #FAEAB1;
+    transition: all 0.3s ease;
+    text-shadow: 0px 0px 11px #C58940;
+}
+h1:hover {
+    color: #FC5404;
+    text-shadow: 0px 0px 33px #A3423C;
+    transition: all 0.3s ease;
+}
+p {
+    margin-top: 0px;
+    font-size: 23px;
+    transition: all 0.3s ease;
+}
+/*Кнопки*/
+.golovna {
+    background-color: #FFE6C7;
+    color: #FF7600;
+    transition: all 0.3s ease;
+}
+.golovna:hover {
+    background-color: #FF7600;
+    color: #FFE6C7;
+    transition: all 0.3s ease;
+}
+.pronas {
+    background-color: #FFE6C7;
+    color: #FF7600;
+    transition: all 0.3s ease;
+}
+.pronas:hover {
+    background-color: #FF7600;
+    color: #FFE6C7;
+    transition: all 0.3s ease;
+}
+.menu {
+    background-color: #FFE6C7;
+    color: #FF7600;
+    transition: all 0.3s ease;
+}
+.menu:hover {
+    background-color: #FF7600;
+    color: #FFE6C7;
+    transition: all 0.3s ease;
+}
+.kontact {
+    background-color: #FFE6C7;
+    color: #FF7600;
+    transition: all 0.3s ease;
+}
+.kontact:hover {
+    background-color: #FF7600;
+    color: #FFE6C7;
+    transition: all 0.3s ease;
+}
+.btn {
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    color: #FF7600;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #FF7600;
+    color: #000000;
+}
+/*Кнопки*/
+
+div ul li {
+	background-color: rgba(0,0,0,0.58);
+    height: 100px;
+}
+section {
+    color: #FCFFE7;
+    transition: all 0.3s ease;
+    text-shadow: 0px 0px 11px #C58940;
+    margin: 30px 0;
+	background-color: rgba(0,0,0,0.58);
+}
+section p:hover{
+    color: #F6F54D;
+    transition: all 0.3s ease;
+    text-shadow: 0px 0px 13px #FFF9D7;
+}
+
+section h2 {
+    font-size: 36px;
+    color:#FCFFE7;
+    transition: all 0.3s ease;
+    text-shadow: 0px 0px 11px #C58940;
+}
+
+section h2:hover {
+    color:#FF5403;
+    transition: all 0.3s ease;
+    text-shadow: 0px 0px 33px #A3423C;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section ul li {
+    border-radius: 13px;
+	background-color: rgba(0,0,0,0.58);
+    border: 3px solid #FCFFE7;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    width: 1300px;
+    padding: 20px;
+}
+section ul li:hover{
+    transition: all 0.3s ease;
+	background-color: rgba(255, 216, 169, 0.555);
+    border: 3px solid #FAEAB1;
+}
+
+section ul li h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    transition: all 0.3s ease;
+}
+section ul li h3:hover{
+    color:#F6F54D;
+    text-shadow: 0px 0px 13px #FAEAB1;
+    transition: all 0.3s ease;
+}
+
+section ul li p {
+	font-size: 16px;
+	margin: 0;
+}
+section ul li a {
+    color:#FCFFE7;
+	font-size: 16px;
+	margin: 0;
+}
+section ul li a:hover {
+    color:#FF7600;
+}
+
+    /*Про нас*/
+	#pronas {
+    color: #FCFFE7;
+    background-color: rgba(0,0,0,0.58);
+    height: 557px;
+    text-align: center;
+    padding: 30px 0;
+}
+        
+    #pronas h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+        
+    #pronas ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+        
+    #pronas ul li {
+    margin-bottom:11px;
+}
+        
+    #pronas ul li a {
+    transition: all 0.3s ease;
+    color: #FCFFE7;
+    text-decoration: none;
+}
+        
+    #pronas ul li i {
+    margin-right: 10px;
+}
+    /*Про нас*/
+
+    /*Меню*/
+
+#menu section ul li {
+    border-radius: 13px;
+	background-color: rgba(0,0,0,0.58);
+    border: 3px solid #FCFFE7;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    width: 1300px;
+    padding: 20px;
+}
+	#menu {
+    color: #FCFFE7;
+    background-color: rgba(0,0,0,0.58);
+    height: 5080px;
+    text-align: center;
+    padding: 30px 0;
+}  
+    #menu h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}     
+    #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}   
+    #menu ul li {
+    height: 310px;
+    transition: all 0.3s ease;
+    color: #FCFFE7;
+    text-decoration: none;
+}
+  #menu img {
+    height: 250px;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+    box-shadow: 3px 3px 13px 1px #FFF4E0;
+    border: 3px solid #ffffff;
+    float: left;
+  }
+  
+  #menu img:hover{
+    height: 300px;
+    transition: all 0.5s ease;
+    box-shadow: 3px 3px 30px 1px #00FFCA;
+    border: 3px solid #FAF4E1;
+  }
+  
+  #menu .text1 {
+  margin-left: 30px;
+  float: left;
+  }
+  
+  #menu .text2 {
+  margin-left: 30px;
+  float: center;
+  }
+    /*Меню*/
+    
+    /*Контакти*/
+	#contact {
+    color: #FCFFE7;
+	background-color: rgba(0,0,0,0.58);
+    height: 557px;
+	text-align: center;
+	padding: 30px 0;
+}
+	
+	#contact h2 {
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+	
+	#contact ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+	
+	#contact ul li {
+	margin-bottom:11px;
+}
+	
+	#contact ul li a {
+    transition: all 0.3s ease;
+	color: #FCFFE7;
+	text-decoration: none;
+}
+	
+	#contact ul li i {
+	margin-right: 10px;
+}
+    /*Контакти*/
+
+    /*Конец*/
+	footer {
+	background-color: rgba(0,0,0,0.58);
+	color: #FF5403;
+	text-align: center;
+	padding: 20px 0;
+}
+	
+	footer p {
+	margin: 0;
+}
+	
+	@media (max-width: 768px) {
+	nav ul {
+	display: none;
+	}
+}
+    /*Конец*/
